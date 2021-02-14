@@ -1,0 +1,9 @@
+# Do not use this file directly.
+# Use corresponding development & production versions instead!
+version: '3'
+services:
+  app:
+    build:
+      context: .
+    environment:
+      DISCORD_BOT_TOKEN: ${DISCORD_BOT_TOKEN}
