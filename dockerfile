@@ -24,8 +24,8 @@ FROM base AS production
 CMD [ "python", "__main__.py" ]
 
 #
-# Optionally a development stage can be defined INSTEAD
-# of production stage. Here additional dependencies can
+# Optionally a development stage can be defined ON TOP OF
+# the production stage. Here additional dependencies can
 # be installed that will make container bigger, which
 # is is okay during local development.
 #
